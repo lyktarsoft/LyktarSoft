@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <Section className="min-h-screen flex items-center bg-black text-white">
       <Container className="max-w-3xl text-center ">
-        <h1 className="text-4xl md:text-6xl font-semibold">
+        <h1 className="text-4xl md:text-6xl font-semibold ">
           Guide your business to success with effective software solutions
         </h1>
         <p className="font-onest mt-3 text-[#A8A8A8] text-lg">
