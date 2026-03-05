@@ -24,13 +24,23 @@ const Navbar = () => {
         </div>
         {/* desktop menu */}
         <Container className="hidden lg:flex gap-6 items-center">
-          <Button variant="ghost">Home</Button>
-          <Button variant="ghost">About</Button>
-          <Button variant="ghost">Services</Button>
-          <Button variant="ghost">Contact</Button>
+          <Button variant="ghost">
+            <a href="#hero">Home</a>
+          </Button>
+          <Button variant="ghost">
+            <a href="#about">About</a>
+          </Button>
+          <Button variant="ghost">
+            <a href="#services">Services</a>
+          </Button>
+          <Button variant="ghost">
+            <a href="#contact">Contact</a>
+          </Button>
         </Container>
         <div className="hidden lg:block">
-          <Button>Contact us</Button>
+          <Button>
+            <a href="#contact">Contact us</a>
+          </Button>
         </div>
 
         {/* Hamburger Button */}
@@ -54,11 +64,26 @@ const Navbar = () => {
         {isOpen && (
           <div className="absolute top-full left-0 w-full bg-[#2B2B2B] border-t border-gray-700 lg:hidden">
             <div className="flex flex-col gap-4 p-6">
-              <Button variant="ghost">Home</Button>
-              <Button variant="ghost">About</Button>
-              <Button variant="ghost">Services</Button>
-              {/* <Button variant="ghost">Contact</Button> */}
-              <Button>Contact us</Button>
+              <Button variant="ghost">
+                <a href="#hero" onClick={() => setIsOpen(false)}>
+                  Home
+                </a>
+              </Button>
+              <Button variant="ghost">
+                <a href="#about" onClick={() => setIsOpen(false)}>
+                  About
+                </a>
+              </Button>
+              <Button variant="ghost">
+                <a href="#services" onClick={() => setIsOpen(false)}>
+                  Services
+                </a>
+              </Button>
+              <Button>
+                <a href="#contact" onClick={() => setIsOpen(false)}>
+                  Contact us
+                </a>
+              </Button>
             </div>
           </div>
         )}

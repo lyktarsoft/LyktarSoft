@@ -8,11 +8,22 @@ import WhyChooseUs from "./components/sections/WhyChooseUs";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <About />
-      <Services />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+
       <WhyChooseUs />
-      <ContactCTA />
+
+      <section id="contact">
+        <ContactCTA />
+      </section>
+
       <MissionVision />
     </>
   );

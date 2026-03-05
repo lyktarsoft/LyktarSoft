@@ -14,7 +14,6 @@ const Hero = () => {
           Transform your vision into market advantage
         </p>
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-          {/* mt-4 flex justify-center gap-4 */}
           <Button>Contact us</Button>
           <Button>Contact us</Button>
         </div>
