@@ -5,24 +5,26 @@ import {
   FaCogs,
   FaClipboardCheck,
 } from "react-icons/fa";
-
-// type Props = {}
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 const Services = () => {
   return (
-    <section
-      className="min-h-screen flex items-center relative  bg-[#0b0b0b] text-white overflow-hidden"
+    <Section
+      className=" flex relative py-24 bg-[#0b0b0b] text-white overflow-hidden"
       style={{
         backgroundImage: "url('/serviceBg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-6xl mx-auto px-10">
+      <Container className="max-w-6xl">
         {/* Title */}
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-semibold">Our Services</h2>
-          <p className="text-gray-400 mt-3 max-w-92.5 mx-auto text-sm">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold">
+            Our Services
+          </h2>
+          <p className=" mt-3 max-w-92.5 mx-auto text-sm">
             From concept to continuous improvement, here&apos;s how we bring
             your ideas to life.
           </p>
@@ -58,8 +60,8 @@ const Services = () => {
             description="Empower your business with modern technology. We streamline workflows, integrate smart tools, and position your operations for sustainable growth and global scalability."
           />
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 };
 

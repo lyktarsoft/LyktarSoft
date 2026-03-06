@@ -19,7 +19,10 @@ export default function RootLayout({
       <body
         className={`${dmSans.className} ${onest.variable}  bg-[#2B2B2B] text-white antialiased`}
       >
-        <Navbar />
+        <section id="hero">
+          <Navbar />
+        </section>
+
         {children}
         <Footer />
       </body>

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Section from "../ui/Section";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         {/* Hamburger Button */}
         <button
-          className="lg:hidden flex flex-col gap-1"
+          className="lg:hidden flex flex-col gap-1 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >

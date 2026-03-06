@@ -25,10 +25,10 @@ export default function Button({
 
   const variants: Record<Variant, string> = {
     primary:
-      "bg-[#FAA435] text-black hover:bg-yellow-400 hover:scale-105 active:scale-95 shadow-lg shadow-[#FAA435]/20",
+      "bg-[#feb201] hover:bg-[#f59e0b] transition-colors text-black font-medium py-3 rounded-full",
     outline:
       "border border-gray-600 text-white hover:border-[#FAA435] hover:text-yellow-400",
-    ghost: "text-gray-300 hover:text-yellow-400",
+    ghost: "text-white hover:text-[#feb201]",
   };
 
   const sizes: Record<Size, string> = {

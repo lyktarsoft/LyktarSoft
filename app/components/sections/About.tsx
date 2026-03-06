@@ -1,4 +1,3 @@
-import React from "react";
 import Section from "../ui/Section";
 import Image from "next/image";
 import Button from "../ui/Button";
@@ -7,7 +6,7 @@ const About = () => {
   return (
     <Section className="bg-[#121212]  overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="relative w-full h-105 sm:h-120 lg:h-130">
+        <div className="hidden lg:block relative w-full h-105 sm:h-120 lg:h-130">
           <Image
             src="/aboutUs.png"
             alt="about us"
