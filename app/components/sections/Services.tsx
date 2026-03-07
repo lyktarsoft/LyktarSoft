@@ -5,7 +5,11 @@ import { services } from "../../lib/services";
 
 export default function Services() {
   return (
-    <Section className="py-24 bg-[#0b0b0b] text-white">
+    <Section className="py-24 bg-[#0b0b0b] text-white"       style={{
+        backgroundImage: "url('/serviceBg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
 
       <Container className="max-w-6xl">
 
