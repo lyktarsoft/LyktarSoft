@@ -11,7 +11,7 @@ export default function Services() {
         backgroundPosition: "center",
       }}>
 
-      <Container className="max-w-6xl">
+      <Container className="max-w-6xl ">
 
         {/* Title */}
 

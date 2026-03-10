@@ -18,7 +18,7 @@ const MissionVision = () => {
               src="/missionVision.png"
               alt="Corporate buildings"
               fill
-              className="object-cover rounded-md"
+              className="object-cover "
             />
           </div>
           <div className="flex flex-col justify-center space-y-8">

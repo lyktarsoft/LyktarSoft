@@ -32,12 +32,12 @@ const About = () => {
             className="absolute bottom-0 -right-20 md:right-0 opacity-90 pointer-events-none"
           />
 
-          <div className="relative flex items-center h-full max-w-xl lg:max-w-125 mx-auto px-10 py-16 lg:py-0 ">
+          <div className="relative flex items-center h-full w-full max-w-xl lg:max-w-125 mx-auto px-4 sm:px-6 lg:px-10 py-16 lg:py-0">
             <div className="  space-y-6 text-center lg:text-left">
               <h2 className=" text-3xl sm:text-4xl lg:text-5xl font-medium">
                 Who we are
               </h2>
-              <p className="text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 px-6 lg:px-0">
+              <p className="text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
                 Lyktar Soft is dedicated to guiding businesses toward success
                 through innovative and effective software solutions. Our mission
                 is to transform your vision into a market advantage by

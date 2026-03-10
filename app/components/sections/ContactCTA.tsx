@@ -76,7 +76,7 @@ const ContactCTA = () => {
             <img
               src="/contactSection.png"
               alt="Corporate buildings"
-              className="object-cover rounded-md w-full h-full"
+              className="object-cover  w-full h-full"
             />
           </div>
         </div>
